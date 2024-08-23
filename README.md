@@ -9,18 +9,18 @@
 
 # 安装
 `
-npm i ins-utils -save
+npm i @instech/utils -save
 `
 或者
 `
-pnpm i ins-utils -save
+pnpm i @instech/utils  -save
 `
 
 # 使用
 ```javascript
- import {pick,omit,isObject} from "ins-utils"
+ import {pick,omit,isObject} from "@instech/utils "
  //or 从子包里获取
- import {pick,omit,isObject} from "ins-utils/object"
+ import {pick,omit,isObject} from "@instech/utils /object"
  
     const obj = { a: 1, b: 2, c: 3 };
     const result = pick(obj, ['a', 'c']);
