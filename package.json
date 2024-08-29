@@ -1,6 +1,6 @@
 {
   "name": "@instech/utils",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "日常开发常用的各种工具函数集合",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -18,7 +18,7 @@
     "build": "tsc",
     "report": "jest --coverage && cat ./coverage/lcov.info",
     "test": "jest",
-    "test:one": "jest .tests/time"
+    "test:one": "jest .tests/format"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
